@@ -1,0 +1,7 @@
+EXPLICACIÓ DE LA CLASSE MOVER:
+
+La classe Mover() és una classe genèrica que descriu una cosa que es mou per la pantalla. 
+Un objecte Mover té dues dades: ubicació i velocitat, que són objectes de PVector.
+En aquest codi el Mover necessita moure’s i s’ha de veure. S'implementen aquestes necessitats com a funcions anomenades update () i display (). 
+Per tant, es posa tot el codi de lògica de moviment en update() i dibuixarem l’objecte en display().
+Es crea un constructor, aquest constructor és una funció especial dins d'una classe que crea la instància del propi objecte.
